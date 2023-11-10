@@ -10,9 +10,9 @@ for (let i = 1; i <= 10; i++) {
   let inputNumero = Number(prompt('Indica il numero che desideri ' + i));
 
   //Digitando il numero richiesto devo aggiungerlo ai numeriTotali
-  conteggio = numeriTotali + inputNumero;
+  numeriTotali = numeriTotali + inputNumero;
 
   arrayNumero.push(inputNumero);
 }
 console.log(arrayNumero);
-console.log('La somma è: ' + conteggio);
+console.log('La somma è: ' + numeriTotali);
