@@ -2,6 +2,7 @@
 
 //Ho un counter pari a 0
 
+/*
 let numeriTotali = 0;
 const arrayNumero = [];
 
@@ -16,3 +17,9 @@ for (let i = 1; i <= 10; i++) {
 }
 console.log(arrayNumero);
 console.log('La somma è: ' + numeriTotali);
+*/
+
+/*
+Crea un array vuoto e chiedi all’utente un numero da inserire nell’array. 
+Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quando la somma degli elementi è inferiore di 50.
+*/
