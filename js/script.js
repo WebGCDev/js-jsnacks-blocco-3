@@ -23,3 +23,18 @@ console.log('La somma è: ' + numeriTotali);
 Crea un array vuoto e chiedi all’utente un numero da inserire nell’array. 
 Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quando la somma degli elementi è inferiore di 50.
 */
+
+const numbersArray = [];
+let numbersSomma = 0;
+
+while (numbersSomma < 50) {
+  const userNumber = prompt('Inserire numero che andrà sommato');
+  if (isNaN(userNumber)) {
+    alert('Devi digitare solamente un numero che abbia cifre al suo interno');
+  } else {
+    numbersArray.push(userNumber);
+    numbersSomma += +userNumber;
+  }
+}
+
+console.log('Il risultato finale è' + numbersSomma);
